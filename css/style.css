@@ -27,6 +27,10 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* header */
 .logo, logo-black, logo-white {
     color: var(--tx-blue-cl);
@@ -57,12 +61,123 @@ a {
 color: var(--tx-blue-cl);
 }
 
-.nav-contact {
-color: ;
+.header-contact {
+color: var(--tx-main-cl);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
 }
 
+.header-contact:hover {
+color: var(--tx-blue-cl);
+}
+
+/* hero */
+
+.hero {
+    background-color: var(--bg-foot-cl);
+}
+
+.hero-title {
+    color: var(--tx-white-cl);
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-btn {
+    background-color: var(--tx-blue-cl);
+    color: var(--tx-white-cl);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    cursor: pointer;
+}
+
+/* features */
+
+.features-title {
+    display: none;
+}
+
+.features-list {
+    color: var(--tx-sec-cl);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features-text {
+    color: var(--tx-main-cl);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* about/team */
+
+.team {
+    background-color: var(--bg-sec-cl);
+}
+
+.about-title, .team-title {
+    color: var(--tx-sec-cl);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-member {
+    color: var(--tx-sec-cl);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.member-prof {
+    color: var(--tx-main-cl);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
 /* footer */
 .footer {
     background-color: var(--bg-foot-cl);
+}
+
+.footer-address, .footer-contact {
+    color: var(--tx-white-cl);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-contact {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact:hover {
+    color: var(--tx-blue-cl);
 }
