@@ -49,12 +49,18 @@ ul {
     color: var(--tx-white-cl);
 }
 
+.nav-page.current {
+    color: var(--tx-blue-cl);
+}
+
 .nav-page {
     color: var(--tx-sec-cl);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+    outline: var(--tx-blue-cl);
 }
 
 .nav-page:hover, .nav-page:focus {
@@ -77,11 +83,11 @@ color: var(--tx-blue-cl);
 
 .hero {
     background-color: var(--bg-foot-cl);
+    text-align: center;
 }
 
 .hero-title {
     color: var(--tx-white-cl);
-    text-align: center;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -91,13 +97,12 @@ color: var(--tx-blue-cl);
 
 .hero-btn {
     background-color: var(--tx-blue-cl);
+
     color: var(--tx-white-cl);
     font-weight: 700;
+    font-family: inherit;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
 
     cursor: pointer;
@@ -120,7 +125,6 @@ color: var(--tx-blue-cl);
 
 .features-text {
     color: var(--tx-main-cl);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -152,8 +156,6 @@ color: var(--tx-blue-cl);
 
 .member-prof {
     color: var(--tx-main-cl);
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -165,10 +167,12 @@ color: var(--tx-blue-cl);
     background-color: var(--bg-foot-cl);
 }
 
+.address {
+    font-style: normal;
+}
+
 .footer-address, .footer-contact {
     color: var(--tx-white-cl);
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -186,7 +190,9 @@ color: var(--tx-blue-cl);
 
 .portfolio-btn {
     background-color: var(--bg-sec-cl);
+
     color: var(--tx-sec-cl);
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -203,7 +209,6 @@ color: var(--tx-blue-cl);
 
 .portfolio-text {
     color: var(--tx-main-cl);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
